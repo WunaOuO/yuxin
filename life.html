@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T1 FAKER</title>
+    <link rel="icon" href="icon/favicon.ico">
+    <link rel="stylesheet" href="css/life.css"/>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        window.addEventListener("scroll", revealOnScroll);
+
+        function revealOnScroll() {
+            var reveals = document.querySelectorAll(".reveal");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var revealTop = reveals[i].getBoundingClientRect().top;
+                var revealPoint = 150;
+
+                if (revealTop < windowHeight - revealPoint) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+        revealOnScroll();
+    });
+</script>
+
+</head>
+<body>
+    <p>Life</p>
+    <nav class="reveal">
+        <ul id="main_menu">
+            <li><a href="Introduction.html">Introduction</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Trophy.html">Awards</a></li>
+        </ul>
+    </nav>
+    <nav class="reveal">
+        <div class="life">青澀的起步</div>
+        <div class="life2">Faker
+            在2013年開始職業生涯，當時年僅17歲。他以優異的遊戲技巧和卓越的戰績在韓國職業賽事中嶄露頭角。在他的第一個賽季中，Faker的操控技巧和對遊戲的深刻理解使他成為聯盟最受矚目的新星之一。</div>
+        <div class="video"></div><iframe width="1920" height="1080"
+            src="https://www.youtube.com/embed/o8vGaC4OZIs?si=NAf3DWmanw3pCCjT" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe></div>
+    </nav>
+    <nav class="reveal">
+        <div class="life">世界冠軍的誕生</div>
+        <div class="life2">2013年，Faker加入韓國戰隊SK Telecom
+            T1，迅速取得了成功。在2013年和2015年和2016年的世界冠軍賽中，他帶領隊伍贏得了冠軍，成為LOL歷史上少數幾位三次獲得世界冠軍的選手之一。Faker在決賽中的精湛表現讓人印象深刻，確立了他作為LOL頂尖選手的地位。
+        </div>
+        <iframe width="1920" height="1080" src="https://www.youtube.com/embed/eZtTMGqGr1s?si=jdP2SK2UQ7SsB959"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </nav>
+    <nav class="reveal">
+        <div class="life">傳說的延續</div>
+        <div class="life2">
+            自成名以來，Faker一直是LOL界的傳奇人物。他持續在職業賽事中展現卓越的技術和領導力，成為許多新一代職業選手追求的目標。Faker的名字已經成為LOL的代名詞，他的職業生涯充滿了輝煌的成就和精彩的瞬間。</div>
+        <iframe width="1920" height="1080" src="https://www.youtube.com/embed/Tn7qefqjaIs?si=_ig_vZKcO7SRR5xQ"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </nav>
+    </body>
+    
+    </html>

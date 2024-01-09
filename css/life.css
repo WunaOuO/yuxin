@@ -1,0 +1,58 @@
+body{
+    background-image: url(../photo/skt\ t1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+}
+p {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+#main_menu{
+    list-style: none;
+    padding: 0%;
+    text-align: center;
+}
+#main_menu li{
+    display: inline-block;
+}
+#main_menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 50px 200px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+}
+#main_menu li a:hover{
+    color: rgb(253, 104, 104);
+}
+.reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+.life {
+    color: rgb(250, 93, 93);
+    background-color: aliceblue;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+.life2 {
+    color: rgb(250, 93, 93);
+    background-color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    padding-left: 300px;
+    padding-right: 250PX;
+}

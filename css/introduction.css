@@ -1,0 +1,139 @@
+body{
+    background-image: url(../photo/skt\ t1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+#main_menu{
+    list-style: none;
+    padding: 0%;
+    text-align: center;
+}
+#main_menu li{
+    display: inline-block;
+}
+#main_menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 50px 200px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+}
+#main_menu li a:hover{
+    color: rgb(253, 104, 104);
+}
+
+.img img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.img img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.faker {
+    position: absolute;
+    font-size: 40px;
+    padding: 10px;
+    color: aliceblue;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 1%;
+    margin-left: 41.8%;
+}
+.img2 img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.img2 img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.faker2 {
+    position: absolute;
+    right: 0px;
+    font-size: 30px;
+    padding: 10px;
+    color: aliceblue;
+    text-align: left;
+    line-height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 5%;
+
+}
+.img {
+    margin-left: 3%;
+
+}
+.faker3 {
+    position: absolute;
+    left: 0px;
+    font-size: 30px;
+    padding: 10px;
+    color: aliceblue;
+    text-align: left;
+    line-height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 4%;
+}
+.img2{
+    float: right;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+.faker4 {
+    position: absolute;
+    font-size: 30px;
+    padding: 10px;
+    color: aliceblue;
+    text-align: left;
+    line-height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 28%;
+    margin-left: 40%;
+}
+.img3 img {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.img3 img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.img3 {
+    margin-left: 3%;
+    margin-top: 25%;
+}
+#ins img {
+    border-radius: 50%;
+    margin: 5px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+#ins img:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}

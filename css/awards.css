@@ -1,0 +1,103 @@
+html, body{
+    background-image: url(../photo/skt\ t1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+}
+p {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+#main_menu{
+    list-style: none;
+    padding: 0%;
+    text-align: center;
+}
+#main_menu li{
+    display: inline-block;
+}
+#main_menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 50px 200px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+}
+#main_menu li a:hover{
+    color: rgb(253, 104, 104);
+}
+.bg_1{
+    background-image: url(../photo/skt-t1-season-3-lol-world-champs.png);
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    margin-top: 25%;
+}
+.p1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 50px;
+}
+.bg_2{
+    background-image: url(../photo/2016.jpg);
+}
+h2{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    margin-top: 20%;
+}
+.p2{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 50px;
+}
+.bg_3{
+    background-image: url(../photo/20162.jpg);
+}
+h3{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    margin-top: 20%;
+}
+.p3{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 12%;
+    font-size: 50px;
+}
+.bg_4{
+    background-image: url(../photo/2023.jpg);
+}
+h4{
+    text-align: center;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    margin-top: 20%;
+}
+.p4{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 50px;
+}
+.fixed_bg{
+    position: relative;
+    height: 100%;
+}
+.fixed_bg{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
